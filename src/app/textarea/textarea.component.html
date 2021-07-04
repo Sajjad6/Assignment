@@ -1,0 +1,12 @@
+<div class="container">
+  <mwl-text-input-autocomplete-container>
+    <textarea class="form-control" rows="5" [(ngModel)]="formControlValue"
+      [findChoices]="findChoices" [getChoiceLabel]="getChoiceLabel" mwlTextInputAutocomplete
+      [menuComponent]="menuComponent">
+  </textarea>
+  </mwl-text-input-autocomplete-container>
+  <div class="center">
+    <button type="button" class="btn btn-outline-warning" disabled>+ Add Note</button>
+    <button type="button" class="btn btn-outline-warning">Reset</button>
+  </div>
+</div>

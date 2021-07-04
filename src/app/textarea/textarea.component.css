@@ -1,0 +1,21 @@
+.container {
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  margin-top: 64px;
+}
+
+textarea {
+  border: 1px solid #ffa500;
+}
+
+.center {
+  display: flex;
+  justify-content: left;
+}
+
+.center button {
+  padding: 8px;
+  margin-top: 16px;
+  margin-right: 8px;
+}
